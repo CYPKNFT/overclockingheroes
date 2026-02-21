@@ -34,7 +34,7 @@ const HeroSection = () => {
             <br />
             <span className="text-primary text-glow">Beyond the Limit</span>
           </h1>
-          <p className="mx-auto max-w-xl text-lg text-muted-foreground">
+          <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
             Welcome to <strong className="text-foreground">OverClockingHeroes</strong> — your university for PC overclocking, 
             benchmarking, and gaming performance. Subscribe and join the community.
           </p>
