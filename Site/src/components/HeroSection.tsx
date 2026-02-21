@@ -4,7 +4,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen overflow-hidden pt-20">
+    <section className="relative overflow-hidden pt-20">
       {/* Background image with overlay */}
       <div className="absolute inset-0 -z-10">
         <img
@@ -18,7 +18,7 @@ const HeroSection = () => {
       {/* Grid pattern */}
       <div className="absolute inset-0 -z-10 bg-grid" />
 
-      <div className="container mx-auto flex flex-col items-center gap-12 px-6 py-20 md:py-28">
+      <div className="container mx-auto flex flex-col items-center gap-8 px-6 py-10 md:py-14">
         {/* Badge */}
         <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5">
           <Zap className="h-3.5 w-3.5 text-primary" />

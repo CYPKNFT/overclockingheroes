@@ -2,7 +2,7 @@ import { Heart, Zap } from "lucide-react";
 
 const DonationCTA = () => {
   return (
-    <section className="relative py-20">
+    <section className="relative py-10">
       <div className="container mx-auto px-6">
         <div className="relative mx-auto max-w-2xl overflow-hidden rounded-2xl border border-border bg-card p-10 text-center">
           {/* Glow effect behind the card */}
