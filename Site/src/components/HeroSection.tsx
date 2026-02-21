@@ -18,7 +18,7 @@ const HeroSection = () => {
       {/* Grid pattern */}
       <div className="absolute inset-0 -z-10 bg-grid" />
 
-      <div className="container mx-auto flex flex-col items-center gap-8 px-6 py-10 md:py-14">
+      <div className="container mx-auto flex flex-col items-center gap-8 px-6 pt-10 pb-4 md:pt-14 md:pb-6">
         {/* Badge */}
         <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5">
           <Zap className="h-3.5 w-3.5 text-primary" />
@@ -42,17 +42,6 @@ const HeroSection = () => {
 
         {/* Video */}
         <VideoEmbed />
-
-        {/* CTA below video */}
-        <a
-          href="https://ko-fi.com/overclockingheroes"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="group inline-flex items-center gap-2 rounded-xl bg-accent px-8 py-4 font-display text-base font-bold text-accent-foreground transition-all hover:scale-105 glow-accent animate-pulse-glow"
-        >
-          <Zap className="h-5 w-5 transition-transform group-hover:rotate-12" />
-          Support Us on Ko-fi
-        </a>
       </div>
     </section>
   );
