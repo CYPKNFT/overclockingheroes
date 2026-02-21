@@ -25,7 +25,7 @@ const DonationCTA = () => {
           </p>
           
           <a
-            href="https://ko-fi.com/"
+            href="https://ko-fi.com/overclockingheroes"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 rounded-xl bg-primary px-8 py-4 font-display text-base font-bold text-primary-foreground transition-all hover:scale-105 glow-primary hover:glow-primary-intense"

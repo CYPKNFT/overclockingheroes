@@ -45,7 +45,7 @@ const HeroSection = () => {
 
         {/* CTA below video */}
         <a
-          href="https://ko-fi.com/"
+          href="https://ko-fi.com/overclockingheroes"
           target="_blank"
           rel="noopener noreferrer"
           className="group inline-flex items-center gap-2 rounded-xl bg-accent px-8 py-4 font-display text-base font-bold text-accent-foreground transition-all hover:scale-105 glow-accent animate-pulse-glow"

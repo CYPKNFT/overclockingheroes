@@ -13,7 +13,7 @@ const Header = () => {
         </div>
         <div className="flex items-center gap-3">
           <a
-            href="https://ko-fi.com/"
+            href="https://ko-fi.com/overclockingheroes"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-lg bg-primary px-4 py-2 font-display text-sm font-semibold text-primary-foreground transition-all hover:glow-primary hover:scale-105"

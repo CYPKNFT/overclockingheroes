@@ -1,0 +1,10 @@
+# pnpm monorepo workspace root
+# Run `pnpm install` here once — all packages below share node_modules
+# To add a new package: create a new folder alongside Site/ and add it to packages list
+
+packages:
+  - 'Site'
+
+onlyBuiltDependencies:
+  - '@swc/core'
+  - esbuild
